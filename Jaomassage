@@ -1,0 +1,202 @@
+/jao-massage
+├── index.html
+├── services.html
+├── about.html
+├── contact.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js (optional)
+└── images/
+    └── (put your images here)
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jao Massage - Accueil</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Jao Massage</h1>
+    <p>Un havre de paix au cœur de Bordeaux.</p>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À Propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Réservez un moment de pure sérénité</h2>
+      <p>Chez Jao Massage, nous croyons que le bien-être est un art...</p>
+      <img src="images/home.jpg" alt="Studio de massage Jao à Bordeaux" />
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jao Massage | Bordeaux</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nos Soins - Jao Massage</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Nos Soins de Détente</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À Propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Nous avons conçu une carte de massage qui allie...</p>
+
+    <section>
+      <h2>Massage Thaï traditionnel de Relaxation</h2>
+      <p>60 min : 70€<br/>90 min : 100€</p>
+    </section>
+
+    <section>
+      <h2>Massage Duo Rituel de Jao</h2>
+      <p>75 min : 90€<br/>105 min : 120€</p>
+    </section>
+
+    <section>
+      <h2>Massage Thérapeutique</h2>
+      <p>60 min : 85€<br/>90 min : 125€</p>
+    </section>
+
+    <section>
+      <h2>Massage Visage & Crâne</h2>
+      <p>30 min : 50€</p>
+    </section>
+
+    <section>
+      <h2>Massage Relaxant aux huiles</h2>
+      <p>60 min : 90€<br/>90 min : 120€</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jao Massage</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>À Propos - Jao Massage</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Notre Philosophie. Notre Histoire.</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À Propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Bienvenue chez Jao Massage. J'ai créé ce lieu avec la conviction que le bien-être est une nécessité...</p>
+    <img src="images/about.jpg" alt="Fondatrice de Jao Massage" />
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jao Massage</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact & Réservation - Jao Massage</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Réservez Votre Moment de Détente</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À Propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>Prêt(e) à vous offrir une parenthèse de bien-être ?</p>
+
+      <h2>Réservation en ligne</h2>
+      <!-- Replace the link below with your actual booking system like Calendly -->
+      <a href="https://calendly.com" target="_blank">Cliquez ici pour réserver en ligne</a>
+
+      <h2>Coordonnées</h2>
+      <p>Téléphone : <a href="tel:0640204099">0640204099</a></p>
+      <p>Email : <a href="mailto:Jaomassage@gmail.com">Jaomassage@gmail.com</a></p>
+      <p>Adresse : 34 Rue du Palais Gallien, 33000 Bordeaux</p>
+
+      <h2>Newsletter</h2>
+      <a href="http://eepurl.com/jnxpBA" target="_blank">S'inscrire à la newsletter</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jao Massage</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffdf7;
+  color: #333;
+}
+
+header, footer {
+  background: #f8e8d6;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #8b4c39;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 1rem;
+}
